@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roma</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <h1>Roma</h1>
+            <ol>
+                <a href="#1"><li>Sitios que visitar</li></a>
+                <a href="#2"><li>Restaurantes recomendados</li></a>
+                <a href="#3"><li>Mejores hoteles</li></a>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section></section>
+        <section>
+            <h2 id="1">Sitios que visitar</h2>
+        <article>
+            <img src="img/coliseo.png" alt="">
+            <h3>Coliseo romano</h3>
+            <p>El Coliseo o Anfiteatro Flavio ​ es un anfiteatro de la época del Imperio romano, construido en el siglo I. Está ubicado en el este del Foro Romano y fue el mayor de los que se construyeron en el Imperio romano</p>
+        </article>
+        <article>
+            <img src="img/fontana.png" alt="">
+            <h3>La Fontana di Trevi</h3>
+            <p>La Fontana di Trevi, tal y como la admiramos hoy en día, es una obra maestra del siglo XVIII y probablemente el mejor ejemplo del arte barroca en Roma. Cuando paseas por las callejuelas que rodean la zona e improvisamente, a la vuelta de la esquina, aparece la fuente de Trevi, es siempre una gran emoción… para alguien que la ve por primera vez, ¡aún más!</p>
+        </article>
+                <article>
+            <img src="img/castillo.png" alt="">
+            <h3>El Castillo de Sant’Angelo</h3>
+            <p>Situado en la orilla derecha del río Tíber, el Castillo de Sant’Angelo nace originariamente como mausoleo del emperador Adriano, de familia hispánica. Sin embargo, a lo largo de más de dos mil años la función del Castillo ha cambiado varias veces. Inicialmente era un monumento fúnebre, sucesivamente se ha convertido en residencia papal y prisión. El Castillo está conectado con la ciudad del Vaticano por un famoso corredor fortificado: el Passetto. La vía de escape perfecta para el Papa en caso de ataque.</p>
+        </article>
+        </section>
+        <section>
+            <h2 id="2">Restaurantes recomendados</h2>
+        <article>
+            <div>
+            <h3>Tonnarello</h3>
+            <img src="img/rest1.png" alt="">
+            <p>Tonnarello es uno de los restaurantes de pasta tradicionales más famosos, virales y concurridos de toda Roma, acumulando decenas de miles de opiniones que lo convierten en un verdadero fenómeno gastronómico en el corazón del pintoresco barrio de Trastevere. Es una taberna histórica (locanda) con raíces que se remontan a 1876, conocida por su atmósfera increíblemente vibrante, porciones generosas y precios razonables.</p></div>
+            <div>
+            <h3>CiPASSO</h3>
+            <img src="img/rest2.png" alt="">
+            <p>CiPASSO se define como un bistró moderno que rinde homenaje a la cocina tradicional romana, pero elevándola con técnicas contemporáneas y una presentación impecable. El menú cambia según la temporada, ya que el Chef Adriano de Angelis trabaja exclusivamente con ingredientes frescos y locales de máxima calidad. Los platos logran un equilibrio perfecto entre lo rústico de las recetas de la abuela italiana y la sofisticación de la alta cocina.</p></div>
+             <div>
+            <h3>Pane e Salame</h3>
+            <img src="img/rest3.png" alt="">    
+            <p>Pane e Salame es un pequeño, rústico y sumamente popular local de street food y bistró italiano ubicado a solo unos pasos de la icónica Fontana di Trevi. A diferencia de los restaurantes tradicionales de mantelería, aquí la experiencia gira en torno a un concepto simple pero extraordinario: embutidos y quesos italianos artesanales de altísima calidad servidos en bocadillos crujientes o en abundantes tablas para compartir.</p></div>
+            </article>
+        </section>
+        <section>
+            <h2 id="3">Mejores hoteles</h2>
+            <img src="" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quam assumenda tenetur, amet suscipit enim quo molestiae dolorum nisi. Earum harum hic ducimus voluptatem quos, placeat ipsam obcaecati officia debitis soluta omnis similique qui rem laborum adipisci nulla et sapiente dolores temporibus facilis veniam odit vitae repudiandae. Aliquam possimus doloribus error recusandae, sint sapiente ab iusto! Harum quibusdam quas aperiam error consectetur qui reiciendis ipsa quae nesciunt quos. Officia adipisci eum eveniet quaerat ducimus, natus veniam sit laudantium repellendus, cumque enim explicabo delectus iste fugit fugiat provident voluptatem suscipit at laborum atque, consectetur impedit voluptate. Magni alias corrupti saepe eum!</p>
+        </section>
+        <section>
+            <h2>Comida</h2>
+            <iframe src="https://youtu.be/25kzn6oJO1o" frameborder="0"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: justify;
+        }
+        header{
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            border-bottom: 5px solid brown;
+            
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            background-color: darkred;
+            color: white;
+            justify-content: center;
+
+        }
+
+        h1{
+            margin-left: 10px;
+        }
+        ol{
+            display: flex;
+            align-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+            gap: 30px;
+
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        iframe{
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            border: 1px solid black;
+
+        }
+        section:nth-child(1){
+            background-image: url(img/coliseo.png);
+            background-size: cover;
+            opacity: 0.7;
+            padding: 500px;
+
+        }
+        section:nth-child(2) article{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+        }
+        section:nth-child(2) article p{
+            width: 50%;
+        }
+        section:nth-child(2) article img{
+            width: 30%;
+        }
+        section:nth-child(3){
+            background-color:darkred ; 
+            padding: 50px;
+            color: white;
+        }
+        section:nth-child(3) article{
+            display: flex;
+            flex-direction: row;
+        }
+        h2{
+            text-align: center;
+            margin-left: 10px;
+        }
+        p{
+            margin: 10px;
+        }
+        img{
+            width: 50%;
+            text-align: center;
+            display: flex;
+            border-radius: 20px;
+        }
+        div{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 500px;
+            margin-left: 20px;
+        }
+    </style>
+</body>
+</html>
